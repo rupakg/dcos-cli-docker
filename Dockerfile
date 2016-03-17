@@ -1,5 +1,5 @@
-FROM python:3.5-slim
-MAINTAINER "Tim <tim.fall@mesosphere.io>"
+FROM python:2.7.11-slim
+MAINTAINER "Rupak Ganguly <rupakg@gmail.com>"
 
 RUN apt-get update && apt-get install -y vim wget curl python-pip openjdk-7-jre-headless
 RUN pip install virtualenv
